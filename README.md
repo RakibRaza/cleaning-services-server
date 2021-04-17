@@ -1,10 +1,10 @@
 ## Website Name
 
-### `Grocery Store`
+### `FastPro - Cleaning Services`
 
 ## Website Link
 
-(Grocery Store)[https://grocery-store-bd.web.app/]
+(Grocery Store)[https://fastpro-bd.web.app/]
 
 ## Website Feature
 
@@ -12,10 +12,7 @@
 
 #### `SignIn Method`
 
-1. Email & Password
-2. Google
-3. Facebook
-4. Github
+1. Google
 
 #### `Backend Tecnology`
 
@@ -24,29 +21,34 @@
 3. MongoDB
 4. Heroku
 
+#### `Front-End Tecnology`
+
+1. HTML
+2. CSS
+3. React.JS
+4. Firebase
+
 #### `Home Page`
 
-1. Search Input
-2. Product Card
+1. Header
+2. Services
+3. About Us
+4. Team Meambers
+5. Contact Form
+6. Reviews
+7. Footer
 
-#### `Checkout Page`
+#### `Admin Dashboard`
 
-1. Checkout Product Details
+1. Dashboard
+2. Order List
+3. Add Service
+4. Make Admin
+5. Manage Service
 
-#### `Orders Page`
+#### `Client Dashaboard`
 
-1. Order Summary
-
-#### `Login Page`
-
-1. Login Form
-
-#### `Signup Page`
-
-1. Signup Form
-
-#### `Admin Page`
-
-1. Manage Product (Manage your all product with delete and edit option)
-2. Add Product (A form with four input field(Product Name,Add Price,Wight, Add Photo). where you can Add Your own product)
-3. Edit Product
+1. Dashboard
+2. Booking
+3. Booking List
+4. Add Review
