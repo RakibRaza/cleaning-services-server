@@ -37,7 +37,8 @@
 4. Team Meambers
 5. Contact Form
 6. Reviews
-7. Footer
+7. Call To Action
+8. Footer
 
 #### `Admin Dashboard`
 

@@ -25,6 +25,7 @@ client.connect((err) => {
   const reviewCollection = client.db(process.env.DB_NAME).collection("reviews");
   const adminCollection = client.db(process.env.DB_NAME).collection("admins");
   const orderCollection = client.db(process.env.DB_NAME).collection("orders");
+  const teamCollection = client.db(process.env.DB_NAME).collection("teams");
 
   // Add Order
   app.post("/placeOrder", (req, res) => {
@@ -117,6 +118,10 @@ client.connect((err) => {
     reviewCollection
       .find({})
       .toArray((err, collection) => res.send(collection));
+  });
+  // Get All Team Members
+  app.get("/teams", (req, res) => {
+    teamCollection.find({}).toArray((err, collection) => res.send(collection));
   });
 });
 
